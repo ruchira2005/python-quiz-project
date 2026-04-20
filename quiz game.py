@@ -22,6 +22,12 @@ if ans3.lower() == "75":
     score += 1
 else:
     print("Wrong")
+ans4 = input("4. 70/2*4 =  ")
+if ans4.lower() == "140":
+    print("Correct")
+    score += 1
+else:
+    print("Wrong")
 print("your score is:",score)
 
 if score == 3:
